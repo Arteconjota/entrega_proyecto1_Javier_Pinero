@@ -1,12 +1,566 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fanpage sobre el universo Howgarts - Andén 9¾">
-    <title>Andén 9¾</title>
-</head>
-<body>
-    
-</body>
+    <meta name="description" content="La Snitch Dorada">
+    <link rel="stylesheet" href="style.css">
+    <title>La Snitch Dorada</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="navOut">
+            <a href="#">Inicio</a>
+          </li>
+          <li class="navOut">
+            <a href="#articles">Artículos</a>
+          </li>
+          <li class="navIn">
+            <img src="assets/logo.png" alt="Icono Snith dorada">
+          </li>
+          <li class="navOut">
+            <a href="#expos">Exposiciones</a>
+          </li>
+          <li class="navOut">
+            <a href="#newsletter">Newsletter</a>
+          </li>
+          <li class="hamburguer">
+            <img src="assets/navbar-hamburguesa.png" alt="Logotipo del menú">
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+        <h1>Harry Potter Store</h1>
+      <ul>
+        <li><img src="assets/img1.png" alt=""></li>
+        <li><img src="assets/img2.png" alt=""></li>
+        <li><img src="assets/img3.png" alt=""></li>
+      </ul>
+    </section>
+    <section id="articles">
+      <h2>encuentra aquí tus artículos favoritos</h2>
+      <div class="contenedor">
+        <div class="filter">
+          <ul>
+            <li class="filtSpecial">Filtros:</li>
+            <li>
+              <input type="checkbox" name="Libros" id="Books" class="checkbox">
+              <label for="Books">Libros</label>
+            </li>
+            <li>
+              <input
+                type="checkbox" name="Peliculas" id="Films" class="checkbox">
+              <label for="Films">Películas</label>
+            </li>
+            <li>
+              <input
+                type="checkbox" name="Funkos" id="Funkos" class="mycheck"
+              >
+              <label for="Funkos">Funkos</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Ropa" id="Clothes" class="mycheck">
+              <label for="Clothes">Ropa</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Tazas" id="Cups" class="mycheck">
+              <label for="Cups">Tazas</label>
+            </li>
+          </ul>
+        </div>
+        <div class="contArticles">
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book1.jpg"
+                alt="Libro de Harry Potter y la Piedra Filosofal"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y la Piedra Filosofal</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/dp/8478884459?ref=emc_s_m_5_i_atc"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book2.jpg"
+                alt="Libro de Harry Potter y y la Cámara Secreta"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y la Cámara Secreta</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-y-Camara-Secreta/dp/8478884955/ref=pd_sbs_d_sccl_3_1/257-8653728-3689018?pd_rd_w=CMpbd&content-id=amzn1.sym.bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_p=bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_r=TJABVYAWNT1CN2415B8G&pd_rd_wg=MxPux&pd_rd_r=5b31287f-fe92-4494-9ab0-96c59261dc9c&pd_rd_i=8478884955&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book3.jpg"
+                alt="Libro de Harry Potter y el Prisionero de Azkabán"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y el Prisionero de Azkabán</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-Prisionero-Azkaban-Rowling/dp/8478885196/ref=pd_bxgy_d_sccl_1/257-8653728-3689018?pd_rd_w=QBtrq&content-id=amzn1.sym.cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_p=cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_r=KFSDY865CWFYMRJX7E88&pd_rd_wg=Nu5H8&pd_rd_r=e2188021-f34f-422b-8396-ece93feeedc2&pd_rd_i=8478885196&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book4.jpg"
+                alt="Libro de Harry Potter y el Cáliz de Fuego"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y el Cáliz de Fuego</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-Caliz-Fuego-Rowling/dp/8478886451/ref=pd_bxgy_d_sccl_2/257-8653728-3689018?pd_rd_w=564fz&content-id=amzn1.sym.cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_p=cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_r=63EP6X3ZXFZJJNYPFA66&pd_rd_wg=9cYzy&pd_rd_r=ee5092d4-a086-4c1d-a739-6b19f94abc77&pd_rd_i=8478886451&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book5.jpg"
+                alt="Libro de Harry Potter y el Prisionero de Azkabán"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y la Órden del Fénix</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-Orden-Del-Fenix/dp/8478887423/ref=pd_sbs_d_sccl_3_2/257-8653728-3689018?pd_rd_w=Q416M&content-id=amzn1.sym.bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_p=bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_r=69ECG2YC4BN4A09QSHDT&pd_rd_wg=c2iip&pd_rd_r=d29c092d-a684-4990-b521-d6cb7de37b2d&pd_rd_i=8478887423&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book6.jpg"
+                alt="Libro de Harry Potter y el misterio del Príncipe"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y el misterio del Príncipe</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-misterio-del-pr%C3%ADncipe/dp/8478889906/ref=pd_bxgy_d_sccl_1/257-8653728-3689018?pd_rd_w=3MKI8&content-id=amzn1.sym.cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_p=cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_r=9RW8ADX51E0RJHGA6QAR&pd_rd_wg=PcFaF&pd_rd_r=d2d721ed-f098-441c-9ab0-2f5043cfbd1c&pd_rd_i=8478889906&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book7.jpg"
+                alt="Libro de Harry Potter y las Reliquias de la muerte"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y las Reliquias de la muerte</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-las-Reliquias-Muerte/dp/8498381401/ref=pd_bxgy_thbs_d_sccl_1/257-8653728-3689018?pd_rd_w=YqNGp&content-id=amzn1.sym.cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_p=cfceebff-276b-4b67-ad06-735b2f4350ee&pf_rd_r=89KM4YWANXSNCG97VS7F&pd_rd_wg=qyCGu&pd_rd_r=a12d0054-daae-456c-a741-0437a1d4d697&pd_rd_i=8498381401&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book8.jpg"
+                alt="Libro de Harry Potter y el Legado maldito"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Harry Potter y el Legado maldito</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Harry-Potter-legado-maldito-Tapa/dp/8418797533/ref=pd_sbs_d_sccl_3_5/257-8653728-3689018?pd_rd_w=J2EWP&content-id=amzn1.sym.bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_p=bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_r=B678R3M2RA2Q5Q3T2MCS&pd_rd_wg=OuR6v&pd_rd_r=f9418dd4-776f-47ca-a361-3f89b57a464e&pd_rd_i=8418797533&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/book9.jpg"
+                alt="Libro de Animales fantásticos y dónde encontrarlos"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Libro de Animales fantásticos y dónde encontrarlos</p>
+              <a
+                class="btn-article"
+                href="https://www.amazon.es/Animales-fant%C3%A1sticos-encontrarlos-biblioteca-Hogwarts/dp/8498387949/ref=pd_sbs_d_sccl_3_3/257-8653728-3689018?pd_rd_w=l1avw&content-id=amzn1.sym.bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_p=bba73e3f-b382-45f1-86ef-02380179f8be&pf_rd_r=SBXXX1FKDZGMJW6K4MAR&pd_rd_wg=yv3FD&pd_rd_r=366b0c57-5a7c-4b2c-afe2-ccdf36c4ced3&pd_rd_i=8498387949&psc=1"
+                >¡Accio libro!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film1.jpg"
+                alt="Película de Harry Potter y la Piedra Filosofal"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y la Piedra Filosofal</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0JXM9K5QSXG0X1O6M4CHGIYACB/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film2.jpg"
+                alt="Película de Harry Potter y y la Cámara Secreta"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y la Cámara Secreta</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0TEKHVKT7A569PK1IAL53VJEAC/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film3.jpg"
+                alt="Película de Harry Potter y el Prisionero de Azkabán"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y el Prisionero de Azkabán</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0O76EJ1MXDUQDTJV8IF40WA49C/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film4.jpg"
+                alt="Película de Harry Potter y el Cáliz de Fuego"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y el Cáliz de Fuego</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0QO9VHCSYDXOS6JYL9VEQTP951/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film5.jpg"
+                alt="Película de Harry Potter y el Prisionero de Azkabán"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y la Órden del Fénix</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0TR4UU8NVQI5MTFWI8EDNP6JE9/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film6.jpg"
+                alt="Película de Harry Potter y el misterio del Príncipe"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Harry Potter y el misterio del Príncipe</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0SS5KJYCLUB3VU1DW8MF5UCMQZ/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film7.jpg"
+                alt="Película de Harry Potter y las Reliquias de la muerte Parte 1"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>
+                Película de Harry Potter y las Reliquias de la muerte - Parte 1
+              </p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0N4SXOJTJ2MHYF5FP83P84G7RL/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film8.jpg"
+                alt="Película de Harry Potter y las Reliquias de la muerte Parte 2"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>
+                Película de Harry Potter y las Reliquias de la muerte - Parte 2
+              </p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0TCW195G4JMRGKK158MGYBWTU6/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+          <div class="article">
+            <figure>
+              <img
+                src="assets/articles/film9.jpg"
+                alt="Película de Animales fantásticos y dónde encontrarlos"
+              >
+            </figure>
+            <div class="infoArticle">
+              <p>Película de Animales fantásticos y dónde encontrarlos</p>
+              <a
+                class="btn-article"
+                href="https://www.primevideo.com/detail/0U5AQ6OORJAVKY8MIW4IW84J0Q/ref=dvm_src_ret_es_xx_s"
+                >¡Accio película!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="watchMore" href="#articles">¡Revelio!</a>
+    </section>
+    <section id="expos">
+      <h2>
+        conoce todas las exposiciones, eventos y parques de atracciones mágicos
+      </h2>
+      <div class="contExpos">
+        <div class="dataExpo">
+          <img
+            src="assets/expos/expo1.png"
+            alt="Exposición Harry Potter: The exhibition"
+          >
+          <div class="infoExpo">
+            <h3>Harry Potter: The Exhibition</h3>
+            <p class="definition">
+              Se trata de una experiencia itinerante que deleita a los fans de
+              todo el mundo con auténtico atrezo de la película, exclusivas
+              miradas entre bastidores y divertidas sorpresas interactivas.
+              Siente la nostalgia y la magia mientras celebras algunos de tus
+              momentos favoritos de la serie Harry Potter.
+            </p>
+            <a class="btn-expo" href="https://harrypotterexhibition.com/"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img
+            src="assets/expos/expo2.jpg"
+            alt="The Magical Music of Harry Potter"
+          >
+          <div class="infoExpo">
+            <h3>The Magical Music of Harry Potter</h3>
+            <p class="definition">
+              Experimente la música más maravillosa de las películas de Harry
+              Potter en una tarde de concierto única con un invitado especial de
+              las películas, la Magical Film Orchestra, un maravilloso coro e
+              ilusiones mágicas. Una experiencia totalmente recomendable para
+              disfrutar en familia.
+            </p>
+            <a
+              class="btn-expo"
+              href="https://www.ticketmaster.es/artist/the-magical-music-of-harry-potter-entradas/1049252"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img src="assets/expos/expo3.jpg" alt="The making of Harry Potter">
+          <div class="infoExpo">
+            <h3>The making of Harry Potter</h3>
+            <p class="definition">
+              El Tour Harry Potter en los estudios Warner de Londres es visitado
+              cada año por cientos de miles de personas que pueden ver de cerca
+              los decorados utilizados en el rodaje de las 8 películas, en una
+              visita que se puede prolongar hasta tres horas con tus seres
+              queridos.
+            </p>
+            <a class="btn-expo" href="https://www.wbstudiotour.co.uk/es/"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img src="assets/expos/expo4.jpeg" alt="Universal Studios Orlando">
+          <div class="infoExpo">
+            <h3>Universal Studios Orlando</h3>
+            <p class="definition">
+              En este parque temático de Harry Potter encontrarás muchos de los
+              establecimientos más famosos de este mundo mágico, como
+              Ollivanders, dónde comprar tu varita y mil objetos más. Además,
+              vive una experiencia única con una atracción en las profundidades
+              de Gringotts Bank.
+            </p>
+            <a
+              class="btn-expo"
+              href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img
+            src="assets/expos/expo5.jpeg"
+            alt="Universal Studios Hollywood"
+          >
+          <div class="infoExpo">
+            <h3>Universal Studios Hollywood</h3>
+            <p class="definition">
+              El parque The Wizarding World of Harry Potter o Mundo Mágico de
+              Harry Potter es un área temática en el parque temático Universal
+              Studios Hollywood, en Los Ángeles. Se inauguró en 2016 y comparte
+              espacio con atracciones y tours de otras películas como Jurassic
+              Park, King Kong, Fast & Furious o Transformers.
+            </p>
+            <a
+              class="btn-expo"
+              href="https://store.universalstudioshollywood.com/"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img src="assets/expos/expo6.jpeg" alt="Universal Studios Japan">
+          <div class="infoExpo">
+            <h3>Universal Studios Japan</h3>
+            <p class="definition">
+              Este parque de atracciones de Harry Potter se encuentra en el
+              parque Universal Studio de Japón, concretamente en Osaka. El Mundo
+              Mágico de Harry Potter abrió en 2014 y es la zona más visitada,
+              por lo que deberías reservar vuestro acceso con antelación.
+              Además, este parque es el segundo parque más visitado de Japón.
+            </p>
+            <a class="btn-expo" href="https://www.usj.co.jp/web/en/us"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img
+            src="assets/expos/expo7.jpg"
+            alt="Escape Room Academia de magia"
+          >
+          <div class="infoExpo">
+            <h3>Escape Room Academia de magia</h3>
+            <p class="definition">
+              Trata de encontrar la salida, ya que un malvado mago oscuro está
+              acabando con todo aquel que se le enfrenta. Para poder acabar con
+              él y derrotarlo, tendréis que entrar en el castillo mágico y
+              recuperar las partes de su alma. Las últimas defensas del Mundo
+              Mágico están a punto de caer. Es nuestra última oportunidad de
+              ganar la guerra.
+            </p>
+            <a class="btn-expo" href="https://academiademagiaescaperoom.com/"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+        <div class="dataExpo">
+          <img
+            src="assets/expos/expo8.jpg"
+            alt="Escape Room 'El Torneo de los tres magos'"
+          >
+          <div class="infoExpo">
+            <h3>Escape Room 'El Torneo de los tres magos'</h3>
+            <p class="definition">
+              Este parque de atracciones de Harry Potter se encuentra en el
+              parque Universal Studio de Japón, concretamente en Osaka. El Mundo
+              Mágico de Harry Potter abrió en 2014 y es la zona más visitada,
+              por lo que deberías reservar vuestro acceso con antelación.
+              Además, este parque es el segundo parque más visitado de Japón.
+            </p>
+            <a
+              class="btn-expo"
+              href="https://www.escapistas.club/local/the-room-escape-madrid"
+              >¡Accio traslador!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="newsletter">
+      <h2>
+        Si además, no quieres perderte nuestras ofertas semanales, ¡Suscríbete a
+        nuestra newsletter!
+      </h2>
+      <form
+        action="#"
+        method="get"
+        enctype="application/x-www-form-urlencoded"
+        target="_self"
+        name="Contact_form"
+      >
+        <input
+          type="text"
+          name="Nombre"
+          placeholder="Nombre Completo"
+          required
+        >
+        <input
+          type="email"
+          name="Correo"
+          placeholder="Correo electrónico"
+          required
+        >
+        <input class="btn" type="submit" value="Enviar">
+      </form>
+    </section>
+    <footer>
+      <p>
+        Powered by &copy; Arteconjota 2024 | La Snitch Dorada |
+        <a href="#">Política de privacidad</a> | Encuéntranos en
+        <a href="facebook.com">Facebook</a> - <a href="tiktok.com">Tik Tok</a> -
+        <a href="instagram.com">Instagram</a>
+      </p>
+    </footer>
+  </body>
 </html>
